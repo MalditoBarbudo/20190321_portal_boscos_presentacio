@@ -21,7 +21,7 @@ class: title-slide
 
 ## Consulta Interactiva del 2º, 3º y 4º Inventario Forestal Nacional en Cataluña
 
-### Laboratori Forestal Catalá .font80[(2019-03-21)]
+### Laboratori Forestal Català .font80[(2019-03-21)]
 
 ---
 
