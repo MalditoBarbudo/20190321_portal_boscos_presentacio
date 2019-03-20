@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>IFN app</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="" />
+    <meta name="date" content="2019-03-21" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="custom.css" type="text/css" />
+    <link rel="stylesheet" href="custom-fonts.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+class: title-slide
+
+# IFN app
+
+## Consulta Interactiva del 2º, 3º y 4º Inventario Forestal Nacional en Cataluña
+
+### Laboratori Forestal Catalá .font80[(2019-03-21)]
+
+---
+
+layout: true
+
+&lt;div class="tweaked-header" style="background-image: url(img/logos.svg)"&gt;&lt;/div&gt;
+
+&lt;div class="my-footer" style="background-image: url(img/creaf_bar.png)"&gt;&lt;/div&gt;
+
+---
+
+
+
+# Inventarios Forestales Nacionales
+
+
+  - **Segundo Inventario Forestal Nacional** (IFN2, 9719 parcelas, realizado en 1990)  
+  
+  - **Tercer Inventario Forestal Nacional** (IFN3, 10448 parcelas, realizado en 2000)  
+  
+  - **Cuarto Inventario Forestal Nacional** (IFN4, 5142 parcelas, realizado en 2015)  
+  
+  
+  
+
+Hay
+**3702**
+parcelas en común entre los tres inventarios,
+**9345**
+parcelas en común entre el IFN2 y el IFN3 y
+**4589**
+parcelas en común entre el IFN3 y el IFN4.
+
+
+La repetición permite el cálculo de tasas:
+
+  - pies supervivientes -&gt; tasas de **crecimiento**
+  - pies incorporados -&gt; tasas de **reclutamiento**
+  - pies aprovechados (desaparecidos) -&gt; tasas de **explotación**
+  - pies muertos -&gt; tasas de **mortalidad**
+
+---
+
+layout: false
+class: inverse
+
+.font200[¿Que podemos hacer con estos datos?]
+
+---
+layout:true
+
+&lt;div class="tweaked-header" style="background-image: url(img/logos.svg)"&gt;&lt;/div&gt;
+
+&lt;div class="my-footer" style="background-image: url(img/creaf_bar.png)"&gt;&lt;/div&gt;
+
+---
+
+# <i class="fas  fa-seedling "></i> Pasado de nuestros bosques
+
+.pull-extleft[
+&lt;img src="img/puzzle.png" width="55%" /&gt;
+]
+
+.font120[
+
+¿Ha habido cambios en la composición de los bosques?
+  
+¿Hay relación entre los cambios de uso y los cambios en los bosques?
+
+]
+
+.center[
+&lt;img src="img/past.png" width="55%" /&gt;
+]
+
+---
+
+
+# <i class="fab  fa-pagelines "></i> Presente de nuestros bosques
+
+.pull-extleft[
+&lt;img src="img/puzzle.png" width="55%" /&gt;
+
+&lt;img src="img/foresmap.jpg" width="35%" /&gt;
+]
+
+.font120[
+
+¿De qué servicios disponemos? 
+
+¿Cuál es la vulnerabilidad actual a factores ambientales o plagas?
+]
+
+&lt;img src="img/servicios_eco_1.png" width="35%" /&gt;&lt;img src="img/servicios_eco_2.png" width="35%" /&gt;
+
+
+---
+
+# <i class="fas  fa-tree "></i> Futuro de nuestros bosques
+
+.pull-extleft[
+&lt;img src="img/puzzle.png" width="55%" /&gt;
+]
+
+.font120[
+
+¿Qué especies se mantendrán en el futuro?
+
+¿Como afectará el cambio global a los bosques, sus servicios y su conservación?
+
+]
+
+.center[
+&lt;img src="img/future_proj.png" width="75%" /&gt;
+]
+
+---
+
+layout: false
+class: inverse
+
+.font200[IFN app]
+
+---
+
+layout: true
+
+&lt;div class="tweaked-header" style="background-image: url(img/logos.svg)"&gt;&lt;/div&gt;
+
+&lt;div class="my-footer" style="background-image: url(img/creaf_bar.png)"&gt;&lt;/div&gt;
+
+---
+
+# Conectarse a la aplicación
+
+## http://ifnapp.creaf.cat
+
+(Este enlace es temporal, cambiará en un futuro)
+
+![](img/nfi_app_init.png)
+
+---
+
+# Información disponible
+
+## ¿Qué se puede consultar en la IFN app?
+
+- IFN2, IFN3 e IFN4
+  - Datos a nivel de parcela
+  - Arbustos
+  - Regeneración
+
+- Comparación IFN2 vs IFN3
+- Comparación IFN3 vs IFN4
+
+.red[.center[.font160[
+**Solo a nivel de Cataluña**
+]]]
+
+
+---
+
+# Información disponible
+
+## ¿A qué nivel de detalle?
+
+.pull-left[
+- Información a nivel de parcela
+
+Se puede desglosar:
+  - por Especie
+  - por Especie simplificada
+  - por Género
+  - por Planifolias / Coníferas
+  - por Caducifolias / Esclerófilas / Coníferas
+  - y/o por clases diamétricas (7,5 a &gt;70cm de 5 en 5 cm)
+]
+
+.pull-right[
+![](img/map_plots.png)
+]
+
+---
+
+# Información disponible
+
+## Agregación
+
+Los datos de las parcelas pueden agregarse para calcular estadísticos por unidades
+administrativas o espacios protegidos
+
+.pull-left[
+**Unidades administrativas**
+
+- Provincias
+- Veguerias
+- Comarcas
+- Municipios
+
+**Espacios protegidos**
+
+- Espacios de interés natural
+- Espacios de protección especial
+- Red Natura 2000
+]
+
+.pull-right[.center[
+![](img/map_admin_protected.png)
+]]
+
+
+---
+layout: false
+class: inverse
+
+.font200[Vamos a probar en directo]
+
+---
+class: thanks clear middle
+
+# <i class="fas  fa-people-carry "></i> .font80[Concepto, diseño y programación:]
+
+Víctor Granda (JRU CREAF-CTFC)  
+Miquel de Cáceres (CTFC)  
+Mireia Banqué (CREAF)  
+Jordi Martínez (CREAF-UAB)  
+Jordi Vayreda (JRU CREAF-CTFC)  
+
+.center[
+## <i class="fas  fa-hand-holding-usd "></i>
+
+![](img/money.svg)&lt;!-- --&gt;
+
+]
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"slideNumberFormat": ""
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
